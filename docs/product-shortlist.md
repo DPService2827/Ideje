@@ -42,6 +42,48 @@ before first revenue. If the store must launch dropship-only with no inventory c
 **#2 peptide lip treatment** instead — same anchor category, impulse price, no compliance burden — and
 treat it as a cash-generation step toward funding this one.
 
+### If no license is acceptable: peptide + rosemary scalp serum (#8)
+
+Adding a "no licensing" constraint rules out the dental chews (pet treats must be licensed) and every
+supplement on the list. It does **not** rule out topical skincare — and that reopens the highest-converting
+category in the shortlist.
+
+**Licensing status.** Cosmetics require no license and no FDA pre-approval. Under MoCRA the brand owner
+is the "responsible person," but the **small-business exemption applies below $1M average annual gross
+sales** over the preceding three years, covering facility registration and product listing. Critically,
+that exemption does *not* extend to products contacting mucous membranes — which is why a scalp serum
+qualifies and the lip treatment (#2) and eyeliner (#11) do not.
+
+**Conversion.** Beauty & personal care, 5.37% — the highest benchmark on the list.
+
+**Ceiling — the reason this beats the other license-free options.**
+
+| Signal | Figure |
+|---|---|
+| Hair & scalp care market | $93.6B in 2026 → $150.5B by 2033 |
+| Loss & thinning segment | 8.6% CAGR — the fastest-growing slice of it |
+| Hair growth serum category | $1.98B in 2026, 8.0% CAGR |
+| Proven exit ceiling | Nutrafol: ~$1B sales, ~$3.5B valuation, 23% YoY, Unilever majority |
+| Second comp | Vegamour: ~$90M revenue, $80M raised, still independent |
+
+No other license-free product on the list has a $3.5B outcome in living memory. Beauty *tools*
+(#12 heatless curls) are equally license-free but are commodity accessories with no repeat purchase;
+personalized apparel (#20) caps out at ~40% margin. This is the only option that carries the top
+conversion rate and a genuine ceiling at the same time.
+
+**Economics.** $25–40 retail, 70–80% margin, 6–8 week reorder, and hair regimens are unusually sticky
+because buyers won't abandon a treatment mid-course. Demand is high-intent and high-emotion.
+
+**The single rule that keeps it license-free.** Claims determine classification, not ingredients. Saying
+the product *grows hair*, *regrows*, *restores growth*, or *prevents hair loss* makes it a **drug** under
+FDA law — the same category as minoxidil — and FDA has issued warning letters to cosmetic firms for
+exactly this. Stay in appearance language: thicker-*looking*, fuller *appearance*, reduces breakage,
+strengthens, supports scalp health. Every piece of ad copy, influencer brief and landing page has to hold
+that line, because a single creator saying "it regrew my hair" is the compliance risk, not the label.
+
+Note that Nutrafol's headline business is an *ingestible* — that path is a supplement and does carry the
+manufacturing burden. The topical serum is the license-free route to the same customer.
+
 ---
 
 ## Method
