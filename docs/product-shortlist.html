@@ -1,0 +1,488 @@
+<title>Launch Product Shortlist — 20 SKUs</title>
+<style>
+  :root {
+    --bg:        #F6F7F5;
+    --surface:   #FFFFFF;
+    --surface-2: #EEF1EE;
+    --ink:       #131C19;
+    --muted:     #5C6864;
+    --line:      #DBE2DE;
+    --line-soft: #E8EDEA;
+    --accent:    #0B6E55;
+    --accent-ink:#075440;
+    --warm:      #8A6410;
+    --danger:    #93321F;
+    --shadow:    0 1px 2px rgba(19,28,25,.05), 0 8px 24px -16px rgba(19,28,25,.28);
+
+    --sans: ui-sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:        #0D1412;
+      --surface:   #141D1A;
+      --surface-2: #1A2421;
+      --ink:       #E7EDEA;
+      --muted:     #929F9A;
+      --line:      #253230;
+      --line-soft: #1D2825;
+      --accent:    #47CBA1;
+      --accent-ink:#7FE0C1;
+      --warm:      #D9A441;
+      --danger:    #E08268;
+      --shadow:    0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg:        #0D1412;
+    --surface:   #141D1A;
+    --surface-2: #1A2421;
+    --ink:       #E7EDEA;
+    --muted:     #929F9A;
+    --line:      #253230;
+    --line-soft: #1D2825;
+    --accent:    #47CBA1;
+    --accent-ink:#7FE0C1;
+    --warm:      #D9A441;
+    --danger:    #E08268;
+    --shadow:    0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 74rem;
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 4.5rem) clamp(1.1rem, 4vw, 3rem) 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.25rem;
+  }
+  .prose { max-width: 40rem; display: flex; flex-direction: column; gap: 1rem; }
+  .note { max-width: 42rem; font-size: .9rem; color: var(--muted); }
+
+  h1, h2, h3, .eyebrow, th, .label {
+    font-family: var(--sans);
+  }
+  h1 {
+    font-size: clamp(2.1rem, 5.2vw, 3.35rem);
+    line-height: 1.04;
+    letter-spacing: -.032em;
+    font-weight: 800;
+    text-wrap: balance;
+    margin: 0;
+  }
+  h2 {
+    font-size: clamp(1.32rem, 2.6vw, 1.6rem);
+    letter-spacing: -.018em;
+    font-weight: 750;
+    line-height: 1.2;
+    text-wrap: balance;
+    margin: 0;
+  }
+  h3 {
+    font-size: 1rem;
+    letter-spacing: -.008em;
+    font-weight: 700;
+    margin: 0;
+  }
+  p { margin: 0; }
+  a { color: var(--accent-ink); text-underline-offset: .18em; text-decoration-thickness: .06em; }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  strong { font-weight: 700; }
+
+  .eyebrow {
+    font-size: .705rem;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .lede { font-size: 1.14rem; color: var(--muted); text-wrap: pretty; }
+
+  /* ---- masthead ---- */
+  .masthead {
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+    padding-bottom: 2.25rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1.75rem;
+    font-family: var(--mono);
+    font-size: .76rem;
+    color: var(--muted);
+    letter-spacing: -.01em;
+  }
+  .meta b { color: var(--ink); font-weight: 600; }
+
+  /* ---- section shell ---- */
+  section { display: flex; flex-direction: column; gap: 1.4rem; }
+  .sec-head { display: flex; flex-direction: column; gap: .5rem; max-width: 46rem; }
+
+  /* ---- benchmark bars ---- */
+  .bars {
+    display: grid;
+    grid-template-columns: minmax(9rem, 15rem) 1fr;
+    gap: .34rem 1rem;
+    align-items: center;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    padding: 1.35rem clamp(1rem, 2.5vw, 1.6rem);
+  }
+  .bar-name {
+    font-family: var(--sans);
+    font-size: .83rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+  }
+  .bar-track { display: flex; align-items: center; gap: .6rem; min-width: 0; }
+  .bar-fill {
+    height: .62rem;
+    border-radius: 2px;
+    background: var(--accent);
+    min-width: 2px;
+  }
+  .bar-fill.sel  { background: var(--warm); opacity: .8; }
+  .bar-fill.avoid{ background: var(--danger); opacity: .62; }
+  .bar-val {
+    font-family: var(--mono);
+    font-size: .76rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .legend {
+    display: flex; flex-wrap: wrap; gap: .4rem 1.15rem;
+    font-family: var(--mono); font-size: .72rem; color: var(--muted);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: .4rem; }
+  .dot { width: .55rem; height: .55rem; border-radius: 2px; background: var(--accent); }
+  .dot.sel { background: var(--warm); opacity: .8; }
+  .dot.avoid { background: var(--danger); opacity: .62; }
+
+  /* ---- tables ---- */
+  .scroll {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+  table { border-collapse: collapse; width: 100%; min-width: 46rem; }
+  thead th {
+    position: sticky; top: 0;
+    background: var(--surface-2);
+    font-size: .69rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--muted);
+    text-align: left;
+    padding: .72rem .85rem;
+    border-bottom: 1px solid var(--line);
+    white-space: nowrap;
+  }
+  tbody td {
+    padding: .78rem .85rem;
+    border-bottom: 1px solid var(--line-soft);
+    font-size: .89rem;
+    line-height: 1.45;
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.num, td.data, th.num {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    font-size: .8rem;
+    white-space: nowrap;
+    color: var(--muted);
+  }
+  td.num { color: var(--muted); width: 2.4rem; }
+  td.name { font-family: var(--sans); font-weight: 600; font-size: .87rem; letter-spacing: -.01em; min-width: 15rem; }
+  td.why { color: var(--muted); min-width: 19rem; }
+
+  /* ---- tier heading ---- */
+  .tier { display: flex; flex-direction: column; gap: .95rem; }
+  .tier-head {
+    display: flex; align-items: baseline; gap: .85rem; flex-wrap: wrap;
+    border-top: 2px solid var(--ink);
+    padding-top: .7rem;
+  }
+  .tier-head .eyebrow { color: var(--ink); }
+  .tier-note { font-size: .93rem; color: var(--muted); max-width: 42rem; }
+
+  /* ---- launch set ---- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: .8rem;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1rem 1.05rem;
+    display: flex; flex-direction: column; gap: .45rem;
+    box-shadow: var(--shadow);
+  }
+  .card .label {
+    font-size: .68rem; text-transform: uppercase; letter-spacing: .13em;
+    font-weight: 700; color: var(--accent-ink);
+  }
+  .card ul { margin: 0; padding-left: 1.05rem; font-size: .9rem; }
+  .card li { margin-bottom: .18rem; }
+
+  /* ---- risks ---- */
+  .risks { display: flex; flex-direction: column; gap: .7rem; max-width: 46rem; }
+  .risk {
+    display: grid; grid-template-columns: .35rem 1fr; gap: .9rem;
+    align-items: stretch;
+  }
+  .risk i { background: var(--danger); opacity: .5; border-radius: 2px; }
+  .risk p { font-size: .93rem; }
+  .risk b { font-family: var(--sans); font-size: .87rem; font-weight: 700; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding-top: 1.5rem;
+    font-size: .84rem;
+    color: var(--muted);
+    display: flex; flex-direction: column; gap: .6rem;
+  }
+  footer ul { margin: 0; padding-left: 1.1rem; columns: 2; column-gap: 2.5rem; }
+  footer li { margin-bottom: .3rem; break-inside: avoid; }
+  @media (max-width: 40rem) { footer ul { columns: 1; } }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Catalogue strategy · Ideje</p>
+    <h1>Twenty products, ranked by what actually converts</h1>
+    <p class="lede">A shortlist built from 2026 conversion benchmarks rather than trend lists — because
+      the highest-demand categories and the highest-converting categories are not the same categories.</p>
+    <div class="meta">
+      <span><b>20</b> SKUs shortlisted</span>
+      <span><b>8</b> recommended at launch</span>
+      <span><b>3</b> anchor categories</span>
+      <span>Compiled <b>Aug 2026</b></span>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head">
+      <h2>The constraint that shaped the list</h2>
+      <p>Demand alone is a trap. Jewelry, electronics and baby gear all draw enormous traffic and convert
+        near the floor — they are high-consideration, high-AOV or high-return. The same visitors, pointed
+        at a consumable beauty or pet product, convert roughly <strong>five times more often</strong>.
+        That spread is the single biggest lever available before a store has any traffic history.</p>
+    </div>
+
+    <div class="bars">
+      <span class="bar-name">Beauty &amp; personal care</span>
+      <span class="bar-track"><i class="bar-fill" style="width:88%"></i><span class="bar-val">5.37%</span></span>
+
+      <span class="bar-name">Food, beverage &amp; consumables</span>
+      <span class="bar-track"><i class="bar-fill" style="width:86%"></i><span class="bar-val">4.5–6.0%</span></span>
+
+      <span class="bar-name">Pet care</span>
+      <span class="bar-track"><i class="bar-fill" style="width:72%"></i><span class="bar-val">4.40%</span></span>
+
+      <span class="bar-name">Arts, crafts &amp; personalized</span>
+      <span class="bar-track"><i class="bar-fill" style="width:68%"></i><span class="bar-val">4.0–5.1%</span></span>
+
+      <span class="bar-name">Health &amp; supplements</span>
+      <span class="bar-track"><i class="bar-fill" style="width:57%"></i><span class="bar-val">3.0–4.0%</span></span>
+
+      <span class="bar-name">Home &amp; kitchen</span>
+      <span class="bar-track"><i class="bar-fill sel" style="width:41%"></i><span class="bar-val">2.0–3.0%</span></span>
+
+      <span class="bar-name">Apparel</span>
+      <span class="bar-track"><i class="bar-fill sel" style="width:38%"></i><span class="bar-val">~2.7%</span></span>
+
+      <span class="bar-name">Consumer electronics</span>
+      <span class="bar-track"><i class="bar-fill avoid" style="width:27%"></i><span class="bar-val">~1.9%</span></span>
+
+      <span class="bar-name">Luxury &amp; jewelry</span>
+      <span class="bar-track"><i class="bar-fill avoid" style="width:10%"></i><span class="bar-val">0.71%</span></span>
+
+      <span class="bar-name">Baby products</span>
+      <span class="bar-track"><i class="bar-fill avoid" style="width:9%"></i><span class="bar-val">0.5–0.7%</span></span>
+    </div>
+    <p class="legend">
+      <span><i class="dot"></i> Anchor — build the catalogue here</span>
+      <span><i class="dot sel"></i> Selective — only with a strong hook</span>
+      <span><i class="dot avoid"></i> Avoid as a core category</span>
+    </p>
+    <p class="note">Every candidate below was scored on five
+      things: category conversion benchmark, demand and market growth, gross margin (must clear ~40% to
+      survive paid traffic), repeat-purchase behaviour, and operational drag — returns, sizing, fragility,
+      regulatory risk.</p>
+  </section>
+
+  <section class="tier">
+    <div class="tier-head">
+      <span class="eyebrow">Tier 1 — Lead with these</span>
+      <span class="bar-val">Highest conversion × repeat purchase</span>
+    </div>
+    <p class="tier-note">Sub-$40, low-consideration, consumable. These carry both the store's conversion
+      rate and its lifetime value. Nine of the ten sit in the three anchor categories.</p>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">#</th><th>Product</th><th class="num">Price</th><th class="num">Margin</th>
+            <th class="num">Cat. CR</th><th class="num">Reorder</th><th>Why it wins</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="num">01</td><td class="name">Snail mucin / hydrating essence (K-beauty)</td><td class="data">$18–28</td><td class="data">75–85%</td><td class="data">5.37%</td><td class="data">8–10 wk</td><td class="why">Proven short-form video engine; visible results drive organic traffic instead of ad spend</td></tr>
+          <tr><td class="num">02</td><td class="name">Peptide lip treatment / overnight mask</td><td class="data">$18–24</td><td class="data">78–85%</td><td class="data">5.37%</td><td class="data">6–8 wk</td><td class="why">Impulse price, gifting-friendly, near-zero return rate</td></tr>
+          <tr><td class="num">03</td><td class="name">Magnesium glycinate sleep formula</td><td class="data">$25–35</td><td class="data">70–80%</td><td class="data">3.0–4.0%</td><td class="data">30 d</td><td class="why">Sleep is the most-searched self-reported wellness problem; converts to subscription naturally</td></tr>
+          <tr><td class="num">04</td><td class="name">Electrolyte hydration sticks</td><td class="data">$30–40</td><td class="data">65–75%</td><td class="data">4.5–6.0%</td><td class="data">20–30 d</td><td class="why">Highest repeat rate on the list; a sampler pack is a cheap cold-traffic entry point</td></tr>
+          <tr><td class="num">05</td><td class="name">Creatine gummies / micronized monohydrate</td><td class="data">$30–45</td><td class="data">60–70%</td><td class="data">3.0–4.0%</td><td class="data">30–45 d</td><td class="why">Fastest-growing supplement of the cycle, and the women's market is still underserved</td></tr>
+          <tr><td class="num">06</td><td class="name">Pet dental chews or water additive</td><td class="data">$20–30</td><td class="data">60–70%</td><td class="data">4.40%</td><td class="data">30 d</td><td class="why">Consumable pet care — the best repeat category the store can own</td></tr>
+          <tr><td class="num">07</td><td class="name">Pet calming + probiotic soft chews</td><td class="data">$25–35</td><td class="data">65–75%</td><td class="data">4.40%</td><td class="data">30 d</td><td class="why">Probiotics are the fastest-growing pet supplement segment (~8.7% CAGR)</td></tr>
+          <tr><td class="num">08</td><td class="name">Rosemary / peptide scalp serum + massager</td><td class="data">$25–40</td><td class="data">70–80%</td><td class="data">5.37%</td><td class="data">6–8 wk</td><td class="why">Hair thinning is high-intent and high-emotion search; the bundle lifts AOV without discounting</td></tr>
+          <tr><td class="num">09</td><td class="name">Vitamin C or niacinamide serum</td><td class="data">$20–30</td><td class="data">75–85%</td><td class="data">5.37%</td><td class="data">8–12 wk</td><td class="why">Evergreen baseline demand; anchors a three-step routine bundle</td></tr>
+          <tr><td class="num">10</td><td class="name">Collagen peptides powder</td><td class="data">$35–50</td><td class="data">60–70%</td><td class="data">4.5–6.0%</td><td class="data">30 d</td><td class="why">Strong subscription attach; cross-sells cleanly into #3 and #4</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="tier">
+    <div class="tier-head">
+      <span class="eyebrow">Tier 2 — Acquisition products</span>
+      <span class="bar-val">Viral demand, $10–40 impulse band</span>
+    </div>
+    <p class="tier-note">These win attention. Margins hold, repeat purchase does not — so treat them as the
+      thing that gets a first order, with Tier 1 in the cross-sell. Expect a 3–9 month window on each,
+      not a permanent catalogue line.</p>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">#</th><th>Product</th><th class="num">Price</th><th class="num">Margin</th>
+            <th class="num">Cat. CR</th><th>Note</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="num">11</td><td class="name">Dual-ended eyeliner stamp</td><td class="data">$15–22</td><td class="data">70–80%</td><td class="data">5.37%</td><td class="why">Single sellers observed near $48k/month; the demo sells it in three seconds</td></tr>
+          <tr><td class="num">12</td><td class="name">Heatless curling set (silk rod + scrunchies)</td><td class="data">$12–20</td><td class="data">75–85%</td><td class="data">5.37%</td><td class="why">Before/after content, tiny COGS, cheap to ship</td></tr>
+          <tr><td class="num">13</td><td class="name">KP exfoliating body scrub + lotion duo</td><td class="data">$18–28</td><td class="data">70–80%</td><td class="data">5.37%</td><td class="why">A specific named problem with specific search intent and thin competition</td></tr>
+          <tr><td class="num">14</td><td class="name">Portable blender</td><td class="data">$30–45</td><td class="data">45–55%</td><td class="data">2.0–3.0%</td><td class="why">Higher price point than most kitchen gadgets while still holding margin</td></tr>
+          <tr><td class="num">15</td><td class="name">Rotating multi-compartment snack tray</td><td class="data">$25–40</td><td class="data">40–55%</td><td class="data">2.0–3.0%</td><td class="why">Purely visual product — the opening motion <em>is</em> the ad creative</td></tr>
+          <tr><td class="num">16</td><td class="name">Sunset / galaxy projector lamp</td><td class="data">$20–35</td><td class="data">55–65%</td><td class="data">2.0–3.0%</td><td class="why">Ambient decor with a mood benefit; strong Q4 gifting curve</td></tr>
+          <tr><td class="num">17</td><td class="name">Pet lick mat / slow feeder</td><td class="data">$15–25</td><td class="data">60–70%</td><td class="data">4.40%</td><td class="why">Cheapest entry into a pet owner's cart; leads directly to #6 and #7</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="tier">
+    <div class="tier-head">
+      <span class="eyebrow">Tier 3 — AOV anchors</span>
+      <span class="bar-val">Lower conversion, 4–8× the order value</span>
+    </div>
+    <p class="tier-note">Never the entry product. Price suppresses conversion, so these only work once trust
+      exists — retargeting, email, and repeat buyers. Adding them early costs more than it earns.</p>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">#</th><th>Product</th><th class="num">Price</th><th class="num">Margin</th>
+            <th class="num">Eff. CR</th><th>Note</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="num">18</td><td class="name">LED red-light therapy face mask</td><td class="data">$120–250</td><td class="data">50–60%</td><td class="data">~2–3%</td><td class="why">Price roughly halves the category benchmark, but the order value more than repays it. Requires an FDA-cleared device from the supplier</td></tr>
+          <tr><td class="num">19</td><td class="name">Automatic pet feeder with camera</td><td class="data">$60–120</td><td class="data">40–50%</td><td class="data">~2%</td><td class="why">Emotional and practical at once. Highest return rate on the list — vet the supplier hard</td></tr>
+          <tr><td class="num">20</td><td class="name">Double-sided couples hoodie (personalized)</td><td class="data">$45–65</td><td class="data">~40%</td><td class="data">4.0–5.1%</td><td class="why">Personalization lifts it out of the ~2.7% apparel benchmark; print-on-demand, so zero inventory risk</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Don't launch all twenty</h2>
+      <p>Twenty SKUs splits the ad budget twenty ways, and none of them accumulate enough data to optimize.
+        Launch <strong>eight</strong> — two clean customer avatars with a bundle path inside each — prove
+        the funnel, then widen from the list above.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <span class="label">Paid traffic heroes</span>
+        <ul><li>01 · Snail mucin essence</li><li>06 · Pet dental chews</li></ul>
+        <p style="font-size:.86rem;color:var(--muted)">One per avatar. These carry the cold-traffic spend.</p>
+      </div>
+      <div class="card">
+        <span class="label">Low-friction entry</span>
+        <ul><li>02 · Peptide lip treatment</li><li>11 · Eyeliner stamp</li></ul>
+        <p style="font-size:.86rem;color:var(--muted)">Impulse price gets the first order and the email address.</p>
+      </div>
+      <div class="card">
+        <span class="label">Subscription engine</span>
+        <ul><li>03 · Magnesium glycinate</li><li>04 · Electrolyte sticks</li></ul>
+        <p style="font-size:.86rem;color:var(--muted)">30-day reorder cycles are where the margin compounds.</p>
+      </div>
+      <div class="card">
+        <span class="label">Bundle attach</span>
+        <ul><li>09 · Vitamin C serum</li><li>07 · Pet calming chews</li></ul>
+        <p style="font-size:.86rem;color:var(--muted)">Raises AOV on an order that was already converting.</p>
+      </div>
+    </div>
+    <p class="note">Add Tier 2 as content hooks once both funnels
+      are profitable. Add Tier 3 only once there is an email list to sell into.</p>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Handle before launch</h2>
+    </div>
+    <div class="risks">
+      <div class="risk"><i></i><p><b>Supplements — #3, #5, #10, and pet #7.</b> Structure/function claims only,
+        no disease claims. Use a cGMP-compliant manufacturer and keep certificates of analysis on file.
+        This is the highest-liability group on the list.</p></div>
+      <div class="risk"><i></i><p><b>Red-light mask — #18.</b> Clearance has to come from the supplier's device,
+        not from a claim you write. Ask for the documentation before the first PO.</p></div>
+      <div class="risk"><i></i><p><b>Beauty consumables.</b> Batch and expiry tracking, plus cosmetic
+        ingredient labelling for every destination market you ship to.</p></div>
+      <div class="risk"><i></i><p><b>Electronics — #19.</b> Highest return rate here; budget 8–12% returns
+        into the margin rather than discovering it in month three.</p></div>
+      <div class="risk"><i></i><p><b>Tier 2 decays.</b> Virality is a window, not a moat. Tier 1 is the
+        durable business — keep the catalogue's centre of gravity there.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="eyebrow">Sources</p>
+    <ul>
+      <li><a href="https://www.fyresite.com/ecommerce-conversion-rate-by-industry-benchmarks/">Conversion rate by industry, 2026 benchmarks — Fyresite</a></li>
+      <li><a href="https://www.nector.io/blog/ecommerce-conversion-rate-benchmarks">Ecommerce conversion rate benchmarks 2026 — Nector</a></li>
+      <li><a href="https://blendcommerce.com/blogs/shopify/ecommerce-conversion-rate-benchmarks-2026">Shopify CRO benchmarks 2026 — Blend Commerce</a></li>
+      <li><a href="https://amasty.com/blog/top-high-demand-e-commerce-products/">30 top high-demand e-commerce products — Amasty</a></li>
+      <li><a href="https://www.bluecart.com/blog/high-demand-products">High demand products to sell in 2026 — BlueCart</a></li>
+      <li><a href="https://www.sellthetrend.com/blog/winning-products">Winning products, Aug 2026 — Sell The Trend</a></li>
+      <li><a href="https://dropship-spy.com/blog/best-dropshipping-products-2026">Best dropshipping products 2026 — Dropship Spy</a></li>
+      <li><a href="https://www.grandviewresearch.com/industry-analysis/pet-supplements-market">Pet supplements market forecast — Grand View Research</a></li>
+      <li><a href="https://www.marketsandmarkets.com/Market-Reports/pet-dietary-supplements-market-264349399.html">Pet dietary supplements market — MarketsandMarkets</a></li>
+      <li><a href="https://www.printful.com/blog/trending-products-to-sell">Trending products to sell online 2026 — Printful</a></li>
+    </ul>
+    <p style="font-size:.8rem">Price, margin and reorder figures are planning estimates from published
+      category data and observed seller benchmarks — validate each against real supplier quotes before committing.</p>
+  </footer>
+
+</div>

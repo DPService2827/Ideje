@@ -1,0 +1,121 @@
+# Launch Product Shortlist — 20 SKUs
+
+**Goal:** pick the products with the best combination of *conversion rate* and *demand*, so the store's first
+catalogue does the selling instead of the ad budget.
+
+## Method
+
+Two variables, not one. "High demand" alone is a trap — the highest-traffic categories (jewelry,
+consumer electronics, baby) convert worst, because they are high-consideration, high-AOV, or
+high-return. So every candidate was scored on:
+
+1. **Category conversion benchmark (2026)** — the ceiling you inherit by choosing a category.
+2. **Demand / search velocity** — market growth and social proof that people are actively buying.
+3. **Gross margin** — must clear ~40% to survive paid acquisition.
+4. **Repeat purchase** — consumables compound; hard goods don't.
+5. **Competitive intensity + operational drag** — returns, sizing, fragility, regulatory risk.
+
+### Category conversion benchmarks (2026)
+
+| Category | Conversion rate | Verdict |
+|---|---|---|
+| Beauty & personal care | 5.37% | Anchor category |
+| Food & beverage / consumables | 4.5–6.0% | Anchor category |
+| Pet care | 4.40% | Anchor category |
+| Health & supplements | 3.0–4.0% | Strong |
+| Arts, crafts & personalized | 4.0–5.1% | Strong |
+| Home & kitchen | 2.0–3.0% | Selective |
+| Apparel | ~2.7% | Selective |
+| Consumer electronics | ~1.9% | Avoid as core |
+| Baby products | 0.5–0.7% | Avoid |
+| Luxury & jewelry | 0.71% | Avoid |
+
+The shortlist is deliberately weighted toward beauty, consumables and pet — roughly **5× the
+conversion rate of jewelry or electronics on the same traffic.**
+
+---
+
+## Tier 1 — Highest conversion × repeat purchase (lead with these)
+
+Sub-$40, low-consideration, consumable. These carry the store's conversion rate and its LTV.
+
+| # | Product | Price | Margin | Cat. CR | Repeat | Why it wins |
+|---|---|---|---|---|---|---|
+| 1 | Snail mucin / hydrating essence (K-beauty) | $18–28 | 75–85% | 5.37% | 8–10 wk | Proven short-form video engine; demonstrable results drive organic traffic |
+| 2 | Peptide lip treatment / overnight lip mask | $18–24 | 78–85% | 5.37% | 6–8 wk | Impulse price, gifting-friendly, near-zero returns |
+| 3 | Magnesium glycinate sleep formula | $25–35 | 70–80% | 3.0–4.0% | 30 days | Sleep is the #1 self-reported wellness problem; natural subscription |
+| 4 | Electrolyte hydration sticks | $30–40 | 65–75% | 4.5–6.0% | 20–30 days | Highest repeat rate on the list; sampler pack converts cold traffic |
+| 5 | Creatine gummies / micronized monohydrate | $30–45 | 60–70% | 3.0–4.0% | 30–45 days | Fastest-growing supplement; the women's market is still underserved |
+| 6 | Pet dental chews or water additive | $20–30 | 60–70% | 4.40% | 30 days | Consumable pet care, the single best repeat category in the store |
+| 7 | Pet calming + probiotic soft chews | $25–35 | 65–75% | 4.40% | 30 days | Probiotics are the fastest-growing pet supplement segment (~8.7% CAGR) |
+| 8 | Rosemary / peptide scalp serum + massager | $25–40 | 70–80% | 5.37% | 6–8 wk | Hair thinning is a high-intent, high-emotion search; bundle lifts AOV |
+| 9 | Vitamin C or niacinamide serum | $20–30 | 75–85% | 5.37% | 8–12 wk | Evergreen baseline demand; anchors the skincare routine bundle |
+| 10 | Collagen peptides powder | $35–50 | 60–70% | 4.5–6.0% | 30 days | Strong subscription attach; cross-sells cleanly to #3 and #4 |
+
+## Tier 2 — Viral demand, impulse price band ($10–40)
+
+These win attention. Margins are good, repeat is low — treat them as acquisition products
+that feed Tier 1 into the cart.
+
+| # | Product | Price | Margin | Cat. CR | Note |
+|---|---|---|---|---|---|
+| 11 | Dual-ended eyeliner stamp | $15–22 | 70–80% | 5.37% | ~$48k/mo observed for single sellers; demo video sells it in 3 seconds |
+| 12 | Heatless curling set (silk rod + scrunchies) | $12–20 | 75–85% | 5.37% | Before/after content, tiny COGS, cheap to ship |
+| 13 | KP / exfoliating body scrub + lotion duo | $18–28 | 70–80% | 5.37% | Problem-solving beauty; specific pain point, low competition on claims |
+| 14 | Portable blender | $30–45 | 45–55% | 2.0–3.0% | Higher price point than most kitchen gadgets, still holds margin |
+| 15 | Rotating multi-compartment snack tray | $25–40 | 40–55% | 2.0–3.0% | Pure visual product; the open/close motion is the ad |
+| 16 | Sunset / galaxy projector lamp | $20–35 | 55–65% | 2.0–3.0% | Ambient decor with mood benefit; strong Q4 gifting |
+| 17 | Pet lick mat / slow feeder | $15–25 | 60–70% | 4.40% | Cheapest entry into the pet buyer's cart; leads to #6 and #7 |
+
+## Tier 3 — AOV anchors (lower CR, higher order value)
+
+Never the entry product. These convert *after* trust exists — retargeting, email, repeat buyers.
+
+| # | Product | Price | Margin | Cat. CR | Note |
+|---|---|---|---|---|---|
+| 18 | LED red-light therapy face mask | $120–250 | 50–60% | ~2–3% eff. | Halves category CR because of price, but 4–8× the AOV; requires FDA-cleared supplier |
+| 19 | Automatic pet feeder with camera | $60–120 | 40–50% | ~2% | Emotional + practical; electronics returns risk, vet the supplier hard |
+| 20 | Double-sided couples hoodie (personalized) | $45–65 | ~40% | 4.0–5.1% | Personalization lifts apparel out of the ~2.7% apparel benchmark; print-on-demand, zero inventory |
+
+---
+
+## Recommendation: do not launch 20 SKUs
+
+Twenty products splits the ad budget twenty ways and none of them get enough data to optimize.
+Launch **8**, prove the funnel, then widen.
+
+**Opening set:**
+
+| Role | SKU |
+|---|---|
+| Hero (paid traffic) | #1 Snail mucin essence |
+| Hero (paid traffic) | #6 Pet dental chews |
+| Impulse / low-friction entry | #2 Peptide lip treatment, #11 Eyeliner stamp |
+| Subscription engine | #3 Magnesium, #4 Electrolytes |
+| Bundle attach | #9 Vitamin C serum, #7 Pet calming chews |
+
+This gives two distinct customer avatars (beauty buyer, pet owner) with a clean bundle path inside
+each — rather than one thin catalogue spread across nine unrelated categories. Add Tier 2 as content
+hooks once the first two funnels are profitable, and Tier 3 only once you have an email list to sell into.
+
+## Risks to handle before launch
+
+- **Supplements (#3, #5, #10, and pet #7):** structure/function claims only — no disease claims. Use a
+  cGMP-compliant manufacturer and keep COAs on file. This is the highest-liability group on the list.
+- **Red-light mask (#18):** must be an FDA-cleared device from the supplier, not a claim you make yourself.
+- **Beauty consumables:** batch/expiry tracking and cosmetic ingredient labelling per destination market.
+- **Electronics (#19):** highest return rate on the list; budget 8–12% returns into the margin.
+- **Tier 2 virality decays.** These are 3–9 month windows, not a catalogue. Tier 1 is the durable business.
+
+## Sources
+
+- [Ecommerce conversion rate by industry — 2026 benchmarks (Fyresite)](https://www.fyresite.com/ecommerce-conversion-rate-by-industry-benchmarks/)
+- [Ecommerce conversion rate benchmarks 2026 (Nector)](https://www.nector.io/blog/ecommerce-conversion-rate-benchmarks)
+- [Ecommerce conversion rate benchmarks 2026 (Blend Commerce)](https://blendcommerce.com/blogs/shopify/ecommerce-conversion-rate-benchmarks-2026)
+- [30 top high-demand e-commerce products to sell in 2026 (Amasty)](https://amasty.com/blog/top-high-demand-e-commerce-products/)
+- [High demand products to sell in 2026 (BlueCart)](https://www.bluecart.com/blog/high-demand-products)
+- [Winning products, updated August 2026 (Sell The Trend)](https://www.sellthetrend.com/blog/winning-products)
+- [Best dropshipping products 2026 (Dropship Spy)](https://dropship-spy.com/blog/best-dropshipping-products-2026)
+- [Pet supplements market size & growth forecast (Grand View Research)](https://www.grandviewresearch.com/industry-analysis/pet-supplements-market)
+- [Pet dietary supplements market report (MarketsandMarkets)](https://www.marketsandmarkets.com/Market-Reports/pet-dietary-supplements-market-264349399.html)
+- [Trending products to sell online 2026 (Printful)](https://www.printful.com/blog/trending-products-to-sell)
