@@ -3,6 +3,47 @@
 **Goal:** pick the products with the best combination of *conversion rate* and *demand*, so the store's first
 catalogue does the selling instead of the ad budget.
 
+## The one bet: functional dog dental chews (#6)
+
+If only one product gets funded, this is it — and it is **not** the highest-converting product on the list.
+
+**Why not snail mucin (#1), despite the better benchmark.** The online shelf is already locked. On the
+core keyword, the top 3 listings take 79.7% of clicks and 72.3% of conversions; the top 5 take 93% of
+clicks. A new brand there pays for the traffic and hands the conversion to Cosrx. High demand, low
+chance of capture.
+
+**Why dental chews win on probability, not ceiling.**
+
+| Factor | Why it matters here |
+|---|---|
+| Channel is still opening | DTC + subscription is only ~18% of category dollar sales in 2026, forecast to 30–35% by 2035; online/subscription channel growing ~17.2% CAGR |
+| Subscription behaviour is proven | Dental chew auto-ship subscriptions grew 19% in a single year |
+| Reorder cycle | ~30 days, so CAC amortizes over 6–12 orders instead of one |
+| Conversion | 4.40% category benchmark — third highest on the list |
+| Margin | 60–70%, enough to survive paid acquisition |
+| Returns | Near zero: consumable, no sizing, no fit risk |
+| Buyer | Pet owners are the least price-sensitive and most repeat-driven buyer in the shortlist |
+| Problem | ~80% of dogs show dental disease early; the symptom (breath) is noticed daily by the owner |
+
+**The wedge.** Greenies (Mars) owns retail, but it is dental-only and carries a persistent
+ingredient-quality objection among exactly the buyer who shops DTC. Premiumization is moving toward
+*functional* chews — dental **plus** a second benefit (breath, probiotic, joint). Jinx, Red Barn and
+The Missing Link prove a DTC challenger can land. Position as a clean-label functional dental chew sold
+subscription-first, not as a cheaper Greenies.
+
+**Cost of entry — and why it's the moat.** Dental chews are regulated as pet *food*, not as a generic
+chew: treats require licensing, AAFCO ingredient and quantity statements, "treat"/"snack" on the
+principal display panel, state feed registration, and FDA facility registration for the manufacturer.
+That is real work, which is precisely why casual dropshippers cannot flood this the way they flood
+beauty gadgets.
+
+**The one condition that flips this answer.** This needs private-label inventory and label compliance
+before first revenue. If the store must launch dropship-only with no inventory capital, take
+**#2 peptide lip treatment** instead — same anchor category, impulse price, no compliance burden — and
+treat it as a cash-generation step toward funding this one.
+
+---
+
 ## Method
 
 Two variables, not one. "High demand" alone is a trap — the highest-traffic categories (jewelry,

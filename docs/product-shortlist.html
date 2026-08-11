@@ -259,6 +259,47 @@
   .risk p { font-size: .93rem; }
   .risk b { font-family: var(--sans); font-size: .87rem; font-weight: 700; }
 
+  /* ---- the single bet ---- */
+  .bet {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--accent);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    padding: clamp(1.3rem, 3vw, 2rem) clamp(1.1rem, 3vw, 2rem);
+    display: flex; flex-direction: column; gap: 1.15rem;
+  }
+  .bet-title { display: flex; flex-direction: column; gap: .3rem; }
+  .bet-title .eyebrow { color: var(--accent-ink); }
+  .bet h2 { font-size: clamp(1.5rem, 3.4vw, 2.05rem); }
+  .bet p { max-width: 44rem; }
+  .bet .sub { font-size: 1.03rem; color: var(--muted); }
+  .factors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: .1rem;
+    border: 1px solid var(--line-soft);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--line-soft);
+  }
+  .factor {
+    background: var(--surface);
+    padding: .85rem .95rem;
+    display: flex; flex-direction: column; gap: .22rem;
+  }
+  .factor .k {
+    font-family: var(--mono); font-size: .68rem; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--muted);
+  }
+  .factor .v { font-family: var(--sans); font-size: .87rem; font-weight: 650; letter-spacing: -.01em; }
+  .flip {
+    border-left: 3px solid var(--warm);
+    padding: .15rem 0 .15rem .95rem;
+    font-size: .93rem;
+  }
+  .flip b { font-family: var(--sans); font-size: .87rem; font-weight: 700; }
+
   footer {
     border-top: 1px solid var(--line);
     padding-top: 1.5rem;
@@ -285,6 +326,50 @@
       <span>Compiled <b>Aug 2026</b></span>
     </div>
   </header>
+
+  <section class="bet">
+    <div class="bet-title">
+      <p class="eyebrow">If only one product gets funded</p>
+      <h2>Functional dog dental chews</h2>
+      <p class="sub">Product #6 — and deliberately not the highest-converting product on this list.</p>
+    </div>
+
+    <p><strong>Why not snail mucin, despite the better benchmark.</strong> That shelf is already locked.
+      On the core keyword the top three listings take 79.7% of clicks and 72.3% of conversions, and the
+      top five take 93% of clicks. A new brand there pays for the traffic and hands the conversion to
+      Cosrx. High demand, low chance of capturing any of it.</p>
+
+    <p><strong>Dental chews win on probability rather than ceiling.</strong> The category's online shelf is
+      still being built — which is the whole opportunity.</p>
+
+    <div class="factors">
+      <div class="factor"><span class="k">Channel maturity</span><span class="v">~18% DTC today → 30–35% by 2035</span></div>
+      <div class="factor"><span class="k">Channel growth</span><span class="v">~17.2% CAGR online + subscription</span></div>
+      <div class="factor"><span class="k">Subscription proof</span><span class="v">+19% auto-ship in one year</span></div>
+      <div class="factor"><span class="k">Reorder cycle</span><span class="v">~30 days — CAC spreads over 6–12 orders</span></div>
+      <div class="factor"><span class="k">Category conversion</span><span class="v">4.40% — third highest here</span></div>
+      <div class="factor"><span class="k">Gross margin</span><span class="v">60–70%, survives paid traffic</span></div>
+      <div class="factor"><span class="k">Returns</span><span class="v">Near zero — no sizing, no fit risk</span></div>
+      <div class="factor"><span class="k">Problem visibility</span><span class="v">Owner notices the breath daily</span></div>
+    </div>
+
+    <p><strong>The wedge.</strong> Greenies owns retail, but it is dental-only and carries a persistent
+      ingredient-quality objection among exactly the buyer who shops direct. Premiumization is moving
+      toward <em>functional</em> chews — dental plus a second benefit: breath, probiotic, joint. Jinx,
+      Red Barn and The Missing Link already prove a challenger can land. Position as a clean-label
+      functional chew sold subscription-first, not as a cheaper Greenies.</p>
+
+    <p><strong>The cost of entry is the moat.</strong> Dental chews are regulated as pet <em>food</em>, not
+      as a generic chew: treats require licensing, AAFCO ingredient and quantity statements, "treat" on
+      the principal display panel, state feed registration, and an FDA-registered manufacturing facility.
+      That is real work — which is precisely why casual dropshippers cannot flood this the way they flood
+      beauty gadgets.</p>
+
+    <p class="flip"><b>The one condition that flips this answer.</b><br>It needs private-label inventory and
+      label compliance before first revenue. If the store has to launch dropship-only with no inventory
+      capital, take <strong>#2 peptide lip treatment</strong> instead — same anchor category, impulse
+      price, no compliance burden — and run it as the cash-generation step that funds this one.</p>
+  </section>
 
   <section>
     <div class="sec-head">
