@@ -3,7 +3,62 @@
 **Goal:** pick the products with the best combination of *conversion rate* and *demand*, so the store's first
 catalogue does the selling instead of the ad budget.
 
-## The one bet: functional dog dental chews (#6)
+## Model correction: on a dropshipping model, most of this changes
+
+The two picks below were built on private-label economics. Three of the four inputs they rest on do not
+survive the switch to dropshipping.
+
+| Input | Private label | Dropshipping | Effect |
+|---|---|---|---|
+| Store conversion | 4.4–5.4% | **0.5–1.0%** | Category benchmarks describe established brands; a cold-traffic dropship store converts ~5× lower, and 1.5% is considered strong |
+| Gross margin | 70–80% | 40–55% | Net lands at 15–20% after ads, fees and refunds |
+| Repeat purchase | 30–90 day cycle | **≈ none** | No brand control or supply consistency, so the LTV case disappears |
+| Delivery | 2–3 days | 7–20 days | Past 12 business days refunds and chargebacks spike; above 1% chargebacks, Stripe and PayPal terminate |
+| Setup capital | $14–21k | **~$500–2k** | The one input that moves in your favour |
+
+**Paid traffic does not close at these conversion rates.** At 45% gross margin less payment fees and a
+refund provision, against a $0.80 CPC:
+
+| Price | Contribution | CAC @ 0.85% CR | CAC @ 1.5% CR | Verdict |
+|---|---|---|---|---|
+| $35 | $13.47 | $94 | $53 | Loses on every order |
+| $60 | $23.10 | $94 | $53 | Loses on every order |
+| $120 | $46.20 | $94 | $53 | Loses on every order |
+| $180 | $69.30 | $94 | $53 | Only at 1.5% conversion |
+
+A $35 dropship product can afford a CPC of **$0.12–0.20**; real CPCs run $0.50–1.50. Affording a $0.80 CPC
+at 1% conversion needs a retail price near **$208**. This is the arithmetic behind 80–90% of new
+dropshippers failing inside a year — product selection is rarely what kills them.
+
+That leaves exactly one viable configuration: **organic-first acquisition**, where content costs time
+rather than cost-per-click, with paid traffic switched on only after a creative is proven. Which flips the
+product criteria entirely — the winner is whatever is most watchable, not whatever has the best benchmark.
+
+### The dropship pick: pet slow feeder / lick mat bundle
+
+$45–60 bundled, US-warehouse sourced, sold through organic short-form video.
+
+| Factor | Why it survives |
+|---|---|
+| Returns | Non-electronic — no defect returns, the top killer of gadget stores |
+| Regulatory | A hard good, not a treat — no AAFCO licensing |
+| Shipping | Light and flat; US-warehouse stock hits 3–7 days |
+| Organic fit | Pet video is the cheapest attention available; the demo is a dog using it |
+| AOV | Bundles naturally to $45–60 at ~60% gross |
+| Conversion | Pet, 4.40% — the best anchor category that dropships cleanly |
+
+**Runner-up:** the rotating snack tray (#15) — a stronger pure-virality hook, but a one-time novelty with
+no bundle path and a decaying trend window.
+
+**On ceiling, honestly.** Dropshipping is a cash-flow business, not an equity one. There is no dropship
+path to the $3.5B outcome cited below — you don't own the product, formula or supply. The realistic
+ambition is a store that generates cash on low capital and can fund a private-label transition later. The
+pet route is chosen partly because that transition exists: proven accessory buyers are exactly who you'd
+later sell an own-brand product to.
+
+---
+
+## Private-label scenario — the one bet: functional dog dental chews (#6)
 
 If only one product gets funded, this is it — and it is **not** the highest-converting product on the list.
 
@@ -42,7 +97,7 @@ before first revenue. If the store must launch dropship-only with no inventory c
 **#2 peptide lip treatment** instead — same anchor category, impulse price, no compliance burden — and
 treat it as a cash-generation step toward funding this one.
 
-### If no license is acceptable: peptide + rosemary scalp serum (#8)
+### Private-label scenario — if no license is acceptable: peptide + rosemary scalp serum (#8)
 
 Adding a "no licensing" constraint rules out the dental chews (pet treats must be licensed) and every
 supplement on the list. It does **not** rule out topical skincare — and that reopens the highest-converting
