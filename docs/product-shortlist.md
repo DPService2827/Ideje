@@ -100,15 +100,28 @@ because buyers won't abandon a treatment mid-course. Demand is high-intent and h
 in 2026 (range $4.28–$7.70), against a $5.42 all-industry average. Divided by the 5.37% category
 conversion rate:
 
-| Scenario | CPC | Implied CAC | Orders to break even | Payback at 7-wk reorder |
-|---|---|---|---|---|
-| Low | $4.28 | ~$80 | 4.1 | ~7 months |
-| Mid | $5.70 | ~$106 | 5.5 | ~9 months |
-| High | $7.70 | ~$143 | 7.4 | ~12 months |
+| Scenario | CPC | Implied CAC |
+|---|---|---|
+| Low | $4.28 | ~$80 |
+| Mid | $5.70 | ~$106 |
+| High | $7.70 | ~$143 |
 
-Assumes $35 retail at 75% margin less ~$7 shipping and payment fees — about **$19 first-order
-contribution**. So a single $35 unit sold on Google Search loses roughly $80–125 on the first order and
-takes 7–12 months to repay. The product works; **buying it on paid search at benchmark CPC does not.**
+At $35 retail, 75% margin less ~$7 shipping and fees, first-order contribution is about **$19**.
+
+**Retention is what decides this, and it is unforgiving.** Beauty and skincare repeat-purchase rates run
+30–45% (serums at the high end), and 60–70% of subscribers are lost between order one and order three,
+with 44% of cancellations inside the first 90 days. Applying a 40% first-repeat rate improving to ~75%
+thereafter gives **~2.1 expected orders per customer** — not the five or six a naive payback calculation
+assumes. That single input decides whether the business works:
+
+| Path | LTV | CAC | LTV/CAC | Verdict |
+|---|---|---|---|---|
+| A. $35 single unit, paid search | $41 | $106 | 0.38 | **Never pays back** |
+| B. $90 bundle, paid search | $126 | $106 | 1.18 | Underwater at month 24 |
+| C. $90 bundle, content-led (CAC ~$50) | $126 | $50 | 2.51 | Viable |
+
+Only path C works, and even it sits below the 3:1 LTV/CAC that DTC investors treat as healthy. **The
+product is fine and the shelf is open; acquiring customers on paid search at benchmark CPC is what fails.**
 
 Three consequences for go-to-market:
 
@@ -119,9 +132,23 @@ Three consequences for go-to-market:
 3. **Budget the working capital.** Even done well, this business funds customers months before they repay.
    That gap, not the product, is what kills stores in this category.
 
-These figures use the category conversion benchmark as a proxy for paid-click conversion, so treat them
-as order-of-magnitude. A new brand with no reviews converts below benchmark; high-intent search converts
-above it. The direction holds either way.
+**Capital required to reach cash-positive (path C).** Modelling a realistic content-led ramp — 5 customers
+in month one growing to 140/month by month twelve, $4k/month of content and tooling, $17.5k of one-time
+setup:
+
+| | |
+|---|---|
+| One-time setup | $14–21k (1,000-unit MOQ, safety substantiation, labelling, site, content, entity) |
+| Deepest cash position | **~$46k** around month 10–11 |
+| Turns cash-positive | ~month 23 |
+| Plus inventory float | ~$10–15k (COGS paid 30–90 days before the sale) |
+| **Planning range** | **~$50–65k, roughly two years to return to zero** |
+
+These figures use the category conversion benchmark as a proxy for paid-click conversion, and stack
+several benchmark estimates on top of each other, so treat them as order-of-magnitude planning numbers
+rather than a forecast — the true figure could plausibly be half or double. The $50 content-led CAC is an
+assumption, not a measurement: if content acquisition does not work, CAC stays near $106 and **no viable
+path exists**. All of it excludes founder salary, which would dominate every other line.
 
 **The single rule that keeps it license-free.** Claims determine classification, not ingredients. Saying
 the product *grows hair*, *regrows*, *restores growth*, or *prevents hair loss* makes it a **drug** under
