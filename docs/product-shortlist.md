@@ -34,7 +34,47 @@ That leaves exactly one viable configuration: **organic-first acquisition**, whe
 rather than cost-per-click, with paid traffic switched on only after a creative is proven. Which flips the
 product criteria entirely — the winner is whatever is most watchable, not whatever has the best benchmark.
 
-### The dropship pick: pet slow feeder / lick mat bundle
+### The top 5 dropship products
+
+Screened against what the economics actually demand, not against trend lists. A product has to clear all
+seven filters — **organic-native demo, non-electronic, unregulated, light and flat, US-warehouse stock,
+bundles to $45–60, and durable rather than a trend window**. Very little survives that.
+
+| # | Product | COGS | Ship | Retail | GM | Contribution | Why it clears the screen |
+|---|---|---|---|---|---|---|---|
+| 1 | Slow feeder bowl | $5.50 | $5.00 | $25 | 58% | $12.88 | Universal problem with a real vet rationale (fast eating, bloat). Flat, stackable, evergreen — not a trend |
+| 2 | Snuffle mat | $6.50 | $5.50 | $25 | 52% | $11.38 | Highest perceived value of the group; foraging footage is the strongest organic story |
+| 3 | Lick mat | $3.00 | $4.00 | $17 | 59% | $8.89 | Cheapest entry and the best bundle attach; flat silicone is the lowest shipping cost available |
+| 4 | Paw cleaner cup | $4.50 | $4.50 | $21 | 57% | $10.63 | Sharpest problem/solution demo in the category — muddy paws clean in three seconds |
+| 5 | Deshedding glove | $3.50 | $3.50 | $18 | 61% | $9.83 | The most viscerally satisfying demo available; visible hair removal needs no explanation |
+
+**All five are pet, and that is the screen's doing rather than a preference.** Electronics fail on defect
+returns, cosmetics and supplements fail on regulation, apparel fails on sizing returns, and homeware
+gadgets fail on trend decay or shipping bulk. Pet accessories are what is left — and the concentration is
+an advantage: one audience, one content engine, and five SKUs that bundle into each other.
+
+**The bundle is the actual product.** Slow feeder + snuffle mat + lick mat at **$49** in one box:
+
+- COGS $15.00 + shipping $7.00 → gross $27.00 (55%), contribution **$23.82**
+- One shipment instead of three, and one customer acquisition instead of three
+
+| Conversion rate | Max affordable CPC |
+|---|---|
+| 0.85% | $0.20 |
+| 1.25% | $0.30 |
+| 1.50% | $0.36 |
+| 2.00% | $0.48 |
+
+Real Meta and TikTok CPCs run $0.50–1.50, so **paid stays unprofitable until you reach roughly 2%
+conversion with sub-$0.60 clicks.** That is achievable, but only with a creative that has already proven
+itself organically. Start there; treat the table above as the gate paid traffic must pass before it gets
+a budget.
+
+**If pet is unappealing**, the same screen produces one alternative niche: beauty *tools* — heatless curl
+sets, scalp massagers, silk accessories. Tools are not cosmetics, so MoCRA does not apply, and they ship
+light. Margins are comparable, but the ceiling is lower and competition heavier.
+
+### Why the pet bundle is the pick
 
 $45–60 bundled, US-warehouse sourced, sold through organic short-form video.
 
