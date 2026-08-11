@@ -70,9 +70,51 @@ conversion with sub-$0.60 clicks.** That is achievable, but only with a creative
 itself organically. Start there; treat the table above as the gate paid traffic must pass before it gets
 a budget.
 
-**If pet is unappealing**, the same screen produces one alternative niche: beauty *tools* — heatless curl
-sets, scalp massagers, silk accessories. Tools are not cosmetics, so MoCRA does not apply, and they ship
-light. Margins are comparable, but the ceiling is lower and competition heavier.
+### Alternative theme — and the better one: no-heat self-care tools
+
+Hair and face tools sold as overnight ritual kits. Same screen, and it beats the pet bundle on every
+economic measure.
+
+Two findings move it ahead. **Beauty tools and devices carry a 24% best-seller rate** — close to one in
+four becomes a best seller, an unusually forgiving base rate in a category where selection is normally the
+gamble. And supplier costs of $1–10 against $15–50 retail give the highest margins in dropshipping, with
+gua sha and jade roller sets quoted at 90–95% gross before shipping.
+
+Critically, **tools are not cosmetics**. Nothing here is applied to the body as a substance, so MoCRA never
+attaches — unlike the eyebrow and eyeliner stamp kits on the same trend lists, which carry pigment and
+with it the whole cosmetics regime.
+
+| # | Product | COGS | Ship | Retail | GM | Contribution | Role |
+|---|---|---|---|---|---|---|---|
+| 1 | Heatless curling set | $3.50 | $3.50 | $22 | 68% | $13.57 | Hero — the most dramatic before/after in the category, and it films itself overnight |
+| 2 | Gua sha + jade roller set | $3.00 | $3.50 | $24 | 73% | $15.94 | Best margin here; a set reads as higher value than its cost |
+| 3 | Silk pillowcase | $8.00 | $4.50 | $34 | 63% | $19.29 | AOV anchor — highest single-item contribution, natural pair to #1 |
+| 4 | Scalp massager brush | $2.00 | $3.00 | $14 | 64% | $8.09 | Cheapest entry; category tracking to $1.29B by 2030 |
+| 5 | Ice / cryo face roller | $2.50 | $3.50 | $16 | 62% | $8.96 | Completes the face kit; depuffing is an immediate, filmable result |
+
+**Two kits, not five products:**
+
+- **Overnight hair kit — $59** (#1 + #3 + #4): gross $39.50 (67%), contribution **$35.66**
+- **Face sculpt kit — $39** (#2 + #5): gross $29.00 (74%), contribution **$26.46**
+
+The hair kit returns **$35.66 per acquisition against the pet bundle's $23.82 — 50% more** — on lighter
+shipping.
+
+| Conversion rate | Hair kit max CPC | Face kit max CPC | Pet bundle max CPC |
+|---|---|---|---|
+| 0.85% | $0.30 | $0.22 | $0.20 |
+| 1.25% | $0.45 | $0.33 | $0.30 |
+| 1.50% | **$0.53** | $0.40 | $0.36 |
+| 2.00% | **$0.71** | $0.53 | $0.48 |
+
+At 1.5% conversion the hair kit supports a $0.53 CPC, which reaches the bottom of the real $0.50–1.50
+range. **Pet needs organic to work at all; this can eventually buy traffic.**
+
+**The claims line still applies, without the paperwork.** Tools escape MoCRA, but marketing can drag them
+back under drug rules. "Depuffs", "sculpts the appearance of", "reduces friction and breakage" are safe.
+"Detoxifies lymph", "removes wrinkles", "prevents hair loss", "treats" are drug claims and invite the same
+warning letters the serum category attracts. Do not extend the line into eyebrow or eyeliner stamps — the
+moment pigment is involved, it is a cosmetic.
 
 ### Why the pet bundle is the pick
 
