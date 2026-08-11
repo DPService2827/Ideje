@@ -96,6 +96,33 @@ draws only ~319 — build the keyword strategy on the former.
 **Economics.** $25–40 retail, 70–80% margin, 6–8 week reorder, and hair regimens are unusually sticky
 because buyers won't abandon a treatment mid-course. Demand is high-intent and high-emotion.
 
+**Paid-search economics — the real constraint.** Beauty & personal care Google Ads CPC averages **$5.70**
+in 2026 (range $4.28–$7.70), against a $5.42 all-industry average. Divided by the 5.37% category
+conversion rate:
+
+| Scenario | CPC | Implied CAC | Orders to break even | Payback at 7-wk reorder |
+|---|---|---|---|---|
+| Low | $4.28 | ~$80 | 4.1 | ~7 months |
+| Mid | $5.70 | ~$106 | 5.5 | ~9 months |
+| High | $7.70 | ~$143 | 7.4 | ~12 months |
+
+Assumes $35 retail at 75% margin less ~$7 shipping and payment fees — about **$19 first-order
+contribution**. So a single $35 unit sold on Google Search loses roughly $80–125 on the first order and
+takes 7–12 months to repay. The product works; **buying it on paid search at benchmark CPC does not.**
+
+Three consequences for go-to-market:
+
+1. **Never sell a single unit as the entry offer.** Lead with a 3-month supply or a subscription at
+   signup. Tripling first-order value roughly halves payback.
+2. **Acquire through content, not search.** Creator and organic video is where this category's CAC is
+   survivable; treat paid search as a retargeting and brand-defense channel, not a growth engine.
+3. **Budget the working capital.** Even done well, this business funds customers months before they repay.
+   That gap, not the product, is what kills stores in this category.
+
+These figures use the category conversion benchmark as a proxy for paid-click conversion, so treat them
+as order-of-magnitude. A new brand with no reviews converts below benchmark; high-intent search converts
+above it. The direction holds either way.
+
 **The single rule that keeps it license-free.** Claims determine classification, not ingredients. Saying
 the product *grows hair*, *regrows*, *restores growth*, or *prevents hair loss* makes it a **drug** under
 FDA law — the same category as minoxidil — and FDA has issued warning letters to cosmetic firms for
