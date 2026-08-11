@@ -71,6 +71,28 @@ No other license-free product on the list has a $3.5B outcome in living memory. 
 personalized apparel (#20) caps out at ~40% margin. This is the only option that carries the top
 conversion rate and a genuine ceiling at the same time.
 
+**Shelf test — the check that killed snail mucin, run against this.** Concentration is the single fastest
+read on whether a new brand can get on a shelf at all:
+
+| | Snail mucin | Scalp serum |
+|---|---|---|
+| Top 3 click share | 79.7% | **28.1%** |
+| Top 3 conversion share | 72.3% | **33.3%** |
+| Top 5 click share | 93% | — |
+| Tracked listings | 119 | 125–131 |
+| Verdict | Locked | **Open** |
+
+Roughly the same number of competing listings, but demand is spread across ~2.8× more of them. Supporting
+signals point the same way: weekly search volume on "scalp serum" is ~7,768 and rising (+3.24% WoW), the
+leading ASIN cleared 70,000 orders in a month, and the fastest-growing listing is up 33.3% month over
+month — new entrants are actively taking share, which does not happen on a closed shelf. The brand mix is
+fragmented too (Nutrafol, The Ordinary, Divi, K18, Vegamour, Aromatica, Botanic Hearth) with no single
+dominator of the Cosrx or Greenies kind.
+
+Two caveats: Amazon concentration is a proxy for demand structure, not a direct read on a Shopify
+storefront's odds; and "scalp serum" is the head term at ~7,768 weekly searches, while "hair scalp serum"
+draws only ~319 — build the keyword strategy on the former.
+
 **Economics.** $25–40 retail, 70–80% margin, 6–8 week reorder, and hair regimens are unusually sticky
 because buyers won't abandon a treatment mid-course. Demand is high-intent and high-emotion.
 
